@@ -8,6 +8,7 @@ public class stringDemo {
          boolean status = name.startsWith("new");
          System.out.println("print"+status);
 				 System.out.println("Iam  making changes");
+				 System.out.println("Iam  making another changes");
 	}
 
 }
