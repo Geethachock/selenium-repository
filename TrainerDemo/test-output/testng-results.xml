@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9500" started-at="2018-01-04T01:32:37Z" finished-at="2018-01-04T01:32:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9500" started-at="2018-01-04T01:32:37Z" finished-at="2018-01-04T01:32:47Z">
+      <class name="seleniumgrid.seleniumgridamazon">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:seleniumgrid.seleniumgridamazon@4439f31e]" name="openapp" is-config="true" duration-ms="9014" started-at="2018-01-03T18:32:37Z" finished-at="2018-01-03T18:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:seleniumgrid.seleniumgridamazon@4439f31e]" name="getTitle" duration-ms="441" started-at="2018-01-03T18:32:46Z" finished-at="2018-01-03T18:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="close()[pri:0, instance:seleniumgrid.seleniumgridamazon@4439f31e]" name="close" is-config="true" duration-ms="31" started-at="2018-01-03T18:32:47Z" finished-at="2018-01-03T18:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- seleniumgrid.seleniumgridamazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

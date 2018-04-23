@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="automation" duration-ms="14358" started-at="2017-10-03T19:54:58Z" finished-at="2017-10-03T19:55:12Z">
+    <groups>
+    </groups>
+    <test name="smoketest" duration-ms="14358" started-at="2017-10-03T19:54:58Z" finished-at="2017-10-03T19:55:12Z">
+      <class name="testNg.Testbase">
+        <test-method status="PASS" signature="login()[pri:0, instance:testNg.Testbase@54a097cc]" name="login" duration-ms="4790" started-at="2017-10-03T12:55:07Z" finished-at="2017-10-03T12:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="printmethod1()[pri:0, instance:testNg.Testbase@54a097cc]" name="printmethod1" duration-ms="0" started-at="2017-10-03T12:55:07Z" finished-at="2017-10-03T12:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printmethod1 -->
+        <test-method status="PASS" signature="printmethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg.Testbase@54a097cc]" name="printmethod" duration-ms="0" started-at="2017-10-03T12:55:12Z" data-provider="getdata" finished-at="2017-10-03T12:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fbc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wbc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printmethod -->
+        <test-method status="PASS" signature="printmethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg.Testbase@54a097cc]" name="printmethod" duration-ms="0" started-at="2017-10-03T12:55:12Z" data-provider="getdata" finished-at="2017-10-03T12:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fbc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wbc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printmethod -->
+        <test-method status="PASS" signature="printmethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg.Testbase@54a097cc]" name="printmethod" duration-ms="0" started-at="2017-10-03T12:55:12Z" data-provider="getdata" finished-at="2017-10-03T12:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fbc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wbc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printmethod -->
+      </class> <!-- testNg.Testbase -->
+      <class name="testNg.Annotation2">
+        <test-method status="PASS" signature="printme()[pri:0, instance:testNg.Annotation2@61dc03ce]" name="printme" is-config="true" duration-ms="6" started-at="2017-10-03T12:54:58Z" finished-at="2017-10-03T12:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printme -->
+        <test-method status="PASS" signature="easy1print()[pri:0, instance:testNg.Annotation2@61dc03ce]" name="easy1print" duration-ms="2" started-at="2017-10-03T12:54:58Z" finished-at="2017-10-03T12:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- easy1print -->
+        <test-method status="PASS" signature="printme2()[pri:0, instance:testNg.Annotation2@61dc03ce]" name="printme2" is-config="true" duration-ms="0" started-at="2017-10-03T12:54:58Z" finished-at="2017-10-03T12:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printme2 -->
+        <test-method status="PASS" signature="printme3()[pri:0, instance:testNg.Annotation2@61dc03ce]" name="printme3" is-config="true" duration-ms="0" started-at="2017-10-03T12:54:58Z" finished-at="2017-10-03T12:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printme3 -->
+        <test-method status="PASS" signature="printme2()[pri:0, instance:testNg.Annotation2@61dc03ce]" name="printme2" is-config="true" duration-ms="0" started-at="2017-10-03T12:54:58Z" finished-at="2017-10-03T12:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printme2 -->
+        <test-method status="PASS" signature="easyprint()[pri:0, instance:testNg.Annotation2@61dc03ce]" name="easyprint" duration-ms="1" started-at="2017-10-03T12:54:58Z" finished-at="2017-10-03T12:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- easyprint -->
+        <test-method status="PASS" signature="printme3()[pri:0, instance:testNg.Annotation2@61dc03ce]" name="printme3" is-config="true" duration-ms="0" started-at="2017-10-03T12:54:58Z" finished-at="2017-10-03T12:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printme3 -->
+        <test-method status="PASS" signature="printme1()[pri:0, instance:testNg.Annotation2@61dc03ce]" name="printme1" is-config="true" duration-ms="0" started-at="2017-10-03T12:55:12Z" finished-at="2017-10-03T12:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printme1 -->
+      </class> <!-- testNg.Annotation2 -->
+      <class name="testNg.DependencyAnnotation">
+        <test-method status="PASS" signature="openingBrowser()[pri:0, instance:testNg.DependencyAnnotation@9f70c54]" name="openingBrowser" duration-ms="5268" started-at="2017-10-03T12:54:58Z" finished-at="2017-10-03T12:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testNg.DependencyAnnotation@9f70c54]" name="login" duration-ms="4267" started-at="2017-10-03T12:55:03Z" finished-at="2017-10-03T12:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="printmethod1()[pri:0, instance:testNg.DependencyAnnotation@9f70c54]" name="printmethod1" duration-ms="0" started-at="2017-10-03T12:55:07Z" finished-at="2017-10-03T12:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printmethod1 -->
+        <test-method status="PASS" signature="printmethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg.DependencyAnnotation@9f70c54]" name="printmethod" duration-ms="0" started-at="2017-10-03T12:55:07Z" data-provider="getdata" finished-at="2017-10-03T12:55:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fbc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wbc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printmethod -->
+        <test-method status="PASS" signature="printmethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg.DependencyAnnotation@9f70c54]" name="printmethod" duration-ms="2" started-at="2017-10-03T12:55:07Z" data-provider="getdata" finished-at="2017-10-03T12:55:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fbc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wbc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printmethod -->
+        <test-method status="PASS" signature="printmethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg.DependencyAnnotation@9f70c54]" name="printmethod" duration-ms="0" started-at="2017-10-03T12:55:07Z" data-provider="getdata" finished-at="2017-10-03T12:55:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fbc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wbc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printmethod -->
+        <test-method status="PASS" signature="flightbooking()[pri:0, instance:testNg.DependencyAnnotation@9f70c54]" name="flightbooking" duration-ms="0" started-at="2017-10-03T12:55:07Z" depends-on-methods="testNg.DependencyAnnotation.openingBrowser" finished-at="2017-10-03T12:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightbooking -->
+      </class> <!-- testNg.DependencyAnnotation -->
+    </test> <!-- smoketest -->
+  </suite> <!-- automation -->
+</testng-results>

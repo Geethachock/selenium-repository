@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" parallel="none">
+  <parameter name="Browser" value="chrome"/>
+  <test name="firefox(failed)" parallel="none">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="Mavenproject.DatadrivenProject.Facebooklogintest">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+          <include name="close"/>
+          <include name="openbrowser"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- Mavenproject.DatadrivenProject.Facebooklogintest -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+  <test name="chrome(failed)" parallel="none">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="Mavenproject.DatadrivenProject.Facebooklogintest">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+          <include name="close"/>
+          <include name="openbrowser"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- Mavenproject.DatadrivenProject.Facebooklogintest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

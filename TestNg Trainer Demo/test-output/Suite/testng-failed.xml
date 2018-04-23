@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="Browser" value="IE"/>
+  <test name="firefox(failed)" parallel="none">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="demo.NewTest">
+        <methods>
+          <include name="links"/>
+          <include name="Title"/>
+        </methods>
+      </class> <!-- demo.NewTest -->
+      <class name="demo.Gurudemo">
+        <methods>
+          <include name="MangerId"/>
+          <include name="Title"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- demo.Gurudemo -->
+      <class name="crossbrowserandparlleltestsing.crossbrowsertesting">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- crossbrowserandparlleltestsing.crossbrowsertesting -->
+      <class name="demo.Beforeandafterclass">
+        <methods>
+          <include name="link"/>
+        </methods>
+      </class> <!-- demo.Beforeandafterclass -->
+      <class name="annatations.Testmethods">
+        <methods>
+          <include name="Title"/>
+          <include name="link"/>
+          <include name="nav"/>
+        </methods>
+      </class> <!-- annatations.Testmethods -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+  <test name="chrome(failed)" parallel="none">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="crossbrowserandparlleltestsing.crossbrowsertesting">
+        <methods>
+          <include name="Login"/>
+          <include name="OpenBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- crossbrowserandparlleltestsing.crossbrowsertesting -->
+      <class name="annatations.Testmethods">
+        <methods>
+          <include name="nav"/>
+        </methods>
+      </class> <!-- annatations.Testmethods -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test name="IE(failed)" parallel="none">
+    <parameter name="Browser" value="IE"/>
+    <classes>
+      <class name="crossbrowserandparlleltestsing.crossbrowsertesting">
+        <methods>
+          <include name="Login"/>
+          <include name="OpenBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- crossbrowserandparlleltestsing.crossbrowsertesting -->
+      <class name="annatations.Testmethods">
+        <methods>
+          <include name="nav"/>
+        </methods>
+      </class> <!-- annatations.Testmethods -->
+    </classes>
+  </test> <!-- IE(failed) -->
+</suite> <!-- Failed suite [Suite] -->

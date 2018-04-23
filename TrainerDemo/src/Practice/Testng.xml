@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- to run two browsers parallely parellel= methods -->
+<suite name="Suite" parallel="methods" thread-count="2">
+  <test name="practice Test">
+     <groups>
+          <run>
+              <include name="smokeTest"></include>
+          </run>
+      </groups>
+      <parameter name="Browser" value="firefox"/>
+      <classes>
+          <class name="Practice.GroupDemo1">   
+          </class>
+          <class name="Practice.GroupDemo2">   
+          </class>
+          <class name="Practice.ParllelBrowser">   
+          </class>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
