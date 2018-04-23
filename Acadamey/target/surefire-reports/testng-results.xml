@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50795" started-at="2018-01-25T18:28:49Z" finished-at="2018-01-25T18:29:40Z">
+    <groups>
+    </groups>
+    <test name="validating home page" duration-ms="31348" started-at="2018-01-25T18:28:49Z" finished-at="2018-01-25T18:29:21Z">
+      <class name="Mavenproject.Acadamey.HomePage">
+        <test-method status="PASS" signature="openmethod()[pri:0, instance:Mavenproject.Acadamey.HomePage@737996a0]" name="openmethod" is-config="true" duration-ms="7033" started-at="2018-01-25T11:28:49Z" finished-at="2018-01-25T11:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openmethod -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Mavenproject.Acadamey.HomePage@737996a0]" name="basePageNavigation" duration-ms="15020" started-at="2018-01-25T11:28:57Z" data-provider="getData" finished-at="2018-01-25T11:29:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[geetha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Mavenproject.Acadamey.HomePage@737996a0]" name="basePageNavigation" duration-ms="3282" started-at="2018-01-25T11:29:12Z" data-provider="getData" finished-at="2018-01-25T11:29:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eetha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Mavenproject.Acadamey.HomePage@737996a0]" name="basePageNavigation" duration-ms="3595" started-at="2018-01-25T11:29:15Z" data-provider="getData" finished-at="2018-01-25T11:29:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[etha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closemethod()[pri:0, instance:Mavenproject.Acadamey.HomePage@737996a0]" name="closemethod" is-config="true" duration-ms="2332" started-at="2018-01-25T11:29:18Z" finished-at="2018-01-25T11:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closemethod -->
+      </class> <!-- Mavenproject.Acadamey.HomePage -->
+    </test> <!-- validating home page -->
+    <test name="validation" duration-ms="19411" started-at="2018-01-25T18:29:21Z" finished-at="2018-01-25T18:29:40Z">
+      <class name="Mavenproject.Acadamey.Validatethenavbar">
+        <test-method status="PASS" signature="openmethod()[pri:0, instance:Mavenproject.Acadamey.Validatethenavbar@7c0e2abd]" name="openmethod" is-config="true" duration-ms="3465" started-at="2018-01-25T11:29:21Z" finished-at="2018-01-25T11:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openmethod -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Mavenproject.Acadamey.Validatethenavbar@7c0e2abd]" name="basePageNavigation" duration-ms="13633" started-at="2018-01-25T11:29:24Z" finished-at="2018-01-25T11:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closemethod()[pri:0, instance:Mavenproject.Acadamey.Validatethenavbar@7c0e2abd]" name="closemethod" is-config="true" duration-ms="2313" started-at="2018-01-25T11:29:38Z" finished-at="2018-01-25T11:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closemethod -->
+      </class> <!-- Mavenproject.Acadamey.Validatethenavbar -->
+    </test> <!-- validation -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Mavenproject.Acadamey.HomePage">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="1 2"/>
+          <include name="openMethod"/>
+          <include name="closttest"/>
+        </methods>
+      </class> <!-- Mavenproject.Acadamey.HomePage -->
+      <class name="Mavenproject.Acadamey.Validatethenavbar">
+        <methods>
+          <include name="openMethod"/>
+          <include name="closttest"/>
+        </methods>
+      </class> <!-- Mavenproject.Acadamey.Validatethenavbar -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
